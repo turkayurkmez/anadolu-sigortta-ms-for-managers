@@ -1,0 +1,38 @@
+
+  Monolitik Mimarinin Dezavantajları:
+
+    1. Hata yönetim stratejileri
+    2. Release (yayına alma) süreçleri 
+                                 -> 1 Haftada bir 
+                                 -> 8 Dakika!
+    3. Deployment Riskleri (Minik bir değişiklik içn devasa yapıyı tekrar deploy et.)
+    4. Teknoloji Bağımlılığı
+
+    ----- Mikroservisin Dezavantajları:
+    1. Dağıtık İşlem Kolay Değildir (Distributed Computing)
+       - Her servis, farklı bir sunucuda ise network sorunları
+       - Her servis çalışsa bile aralarındaki iletişim kopabilir.
+       - Dağıtık mimarilerde transaction süreçleri karmaşıktır!
+
+    2. Operasyonel Karmaşıklık
+       -Binlerce servisin deployment ve yönetimi
+       - Her servis için CI/CD pipeline
+       - Container orchestration karmaşası
+    3. Debugging Zordur.
+       - Hata nerede başladı ve hangisi servisi patlattı?
+       - Bütün uygulamanın ortak log oluşturması ayrı yük (her servisin ayrı arı loglanması)
+       - End-To-End test yazmak ölümcül karmaşık.
+    4. Veri Tutarlılığı
+       - Her servisin ayrı kendisine ait db'si olmalı.
+       - Bu db'ler birbirleriyle senkron olmalı.
+       - Eventually Consistent (SAGA - Koraogragi) zorluğu
+    5. Maaliyet:
+       - Her servisin ayrı altyapısı
+       - network trafiği load balancing maaliyetleri
+       - Monitoring araçları
+
+
+
+
+
+
