@@ -1,0 +1,19 @@
+senkron iletişim için kriterler:
+1. Anında yanıt gerekiyorsa
+2. Veri Tutarlılığı kritik ise (Latency düşük olmalıysa)
+3. İşlem sonucu kullanıcıya hemen gösterilecekse
+4. Basit ve Hızlı işlem yapılacaksa....
+
+asenkron iletişim için kriterler:
+1. Uzun süren işlem (rapor oluşturma, fotoğraf boyutlandırma )
+2. Yüksek trafik alan yerler
+3. Servislerin geçici olarak ulaşılamaz olabileceği durumlarda (örnek: Rate limit ile sınırlandırmışsa)
+4. Eventually Consistency yeterli olduğunda
+5. Batch işlemler
+6. Event-Driven Mimarilerde....
+
+İpucu: "Acil mi, Kritik mi" sorusunun her ikisine de "hayır" 
+       diyorsanız asenkron yapın
+
+NOT: İletişim esnasında Retry veya Circuit Breaker gibi desen 
+     ve tekniklerden faydalanılması gerekebilir!

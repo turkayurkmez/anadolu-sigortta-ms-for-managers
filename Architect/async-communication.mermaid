@@ -1,0 +1,10 @@
+sequenceDiagram
+    participant O as OrderService
+    participant R as RabbitMQ
+    participant S as StockService
+    
+    O->>R: PublishMessage(StockReserveCommand)
+    R-->>S: ConsumeMessage()
+    Note over S: Process Stock Reserve
+    S->>R: PublishMessage(StockReservedEvent)
+    R-->>O: ConsumeMessage()
