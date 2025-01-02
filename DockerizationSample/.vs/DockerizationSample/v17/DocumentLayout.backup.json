@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\turka\\source\\repos\\Kurumsal\\Anadolu Sigorta\\Microservice\\Directors\\DockerizationSample\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4369798F-8662-4816-BCAC-5D6EE9269AEF}|Services\\Basket\\ECommerce.Basket.API\\ECommerce.Basket.API.csproj|c:\\users\\turka\\source\\repos\\kurumsal\\anadolu sigorta\\microservice\\directors\\dockerizationsample\\services\\basket\\ecommerce.basket.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{4369798F-8662-4816-BCAC-5D6EE9269AEF}|Services\\Basket\\ECommerce.Basket.API\\ECommerce.Basket.API.csproj|solutionrelative:services\\basket\\ecommerce.basket.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA3CB051-0372-4C7C-BDAA-4C13058339FD}|Services\\Catalog\\ECommerce.Catalog.API\\ECommerce.Catalog.API.csproj|c:\\users\\turka\\source\\repos\\kurumsal\\anadolu sigorta\\microservice\\directors\\dockerizationsample\\services\\catalog\\ecommerce.catalog.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{EA3CB051-0372-4C7C-BDAA-4C13058339FD}|Services\\Catalog\\ECommerce.Catalog.API\\ECommerce.Catalog.API.csproj|solutionrelative:services\\catalog\\ecommerce.catalog.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1014D52C-A15B-47A2-BA1A-809C11491960}|Services\\Catalog\\ECommerce.Catalog.Infrastructure\\ECommerce.Catalog.Infrastructure.csproj|c:\\users\\turka\\source\\repos\\kurumsal\\anadolu sigorta\\microservice\\directors\\dockerizationsample\\services\\catalog\\ecommerce.catalog.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1014D52C-A15B-47A2-BA1A-809C11491960}|Services\\Catalog\\ECommerce.Catalog.Infrastructure\\ECommerce.Catalog.Infrastructure.csproj|solutionrelative:services\\catalog\\ecommerce.catalog.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54691986-CDB6-467F-86D6-D1C03605451E}|Services\\Catalog\\ECommerce.Catalog.Application\\ECommerce.Catalog.Application.csproj|c:\\users\\turka\\source\\repos\\kurumsal\\anadolu sigorta\\microservice\\directors\\dockerizationsample\\services\\catalog\\ecommerce.catalog.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54691986-CDB6-467F-86D6-D1C03605451E}|Services\\Catalog\\ECommerce.Catalog.Application\\ECommerce.Catalog.Application.csproj|solutionrelative:services\\catalog\\ecommerce.catalog.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B9D0806-96B1-4C7A-A604-BB762AEC72A6}|Services\\Catalog\\ECommerce.Catalog.Domain\\ECommerce.Catalog.Domain.csproj|c:\\users\\turka\\source\\repos\\kurumsal\\anadolu sigorta\\microservice\\directors\\dockerizationsample\\services\\catalog\\ecommerce.catalog.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B9D0806-96B1-4C7A-A604-BB762AEC72A6}|Services\\Catalog\\ECommerce.Catalog.Domain\\ECommerce.Catalog.Domain.csproj|solutionrelative:services\\catalog\\ecommerce.catalog.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\turka\\source\\repos\\Kurumsal\\Anadolu Sigorta\\Microservice\\Directors\\DockerizationSample\\Services\\Basket\\ECommerce.Basket.API\\Dockerfile",
+              "RelativeDocumentMoniker": "Services\\Basket\\ECommerce.Basket.API\\Dockerfile",
+              "ToolTip": "C:\\Users\\turka\\source\\repos\\Kurumsal\\Anadolu Sigorta\\Microservice\\Directors\\DockerizationSample\\Services\\Basket\\ECommerce.Basket.API\\Dockerfile",
+              "RelativeToolTip": "Services\\Basket\\ECommerce.Basket.API\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-02T07:48:49.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\turka\\source\\repos\\Kurumsal\\Anadolu Sigorta\\Microservice\\Directors\\DockerizationSample\\Services\\Catalog\\ECommerce.Catalog.API\\Dockerfile",
+              "RelativeDocumentMoniker": "Services\\Catalog\\ECommerce.Catalog.API\\Dockerfile",
+              "ToolTip": "C:\\Users\\turka\\source\\repos\\Kurumsal\\Anadolu Sigorta\\Microservice\\Directors\\DockerizationSample\\Services\\Catalog\\ECommerce.Catalog.API\\Dockerfile",
+              "RelativeToolTip": "Services\\Catalog\\ECommerce.Catalog.API\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-02T07:46:13.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\turka\\source\\repos\\Kurumsal\\Anadolu Sigorta\\Microservice\\Directors\\DockerizationSample\\Services\\Catalog\\ECommerce.Catalog.Infrastructure\\Class1.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\ECommerce.Catalog.Infrastructure\\Class1.cs",
+              "ToolTip": "C:\\Users\\turka\\source\\repos\\Kurumsal\\Anadolu Sigorta\\Microservice\\Directors\\DockerizationSample\\Services\\Catalog\\ECommerce.Catalog.Infrastructure\\Class1.cs",
+              "RelativeToolTip": "Services\\Catalog\\ECommerce.Catalog.Infrastructure\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T07:44:58.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\turka\\source\\repos\\Kurumsal\\Anadolu Sigorta\\Microservice\\Directors\\DockerizationSample\\Services\\Catalog\\ECommerce.Catalog.Application\\Class1.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\ECommerce.Catalog.Application\\Class1.cs",
+              "ToolTip": "C:\\Users\\turka\\source\\repos\\Kurumsal\\Anadolu Sigorta\\Microservice\\Directors\\DockerizationSample\\Services\\Catalog\\ECommerce.Catalog.Application\\Class1.cs",
+              "RelativeToolTip": "Services\\Catalog\\ECommerce.Catalog.Application\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T07:44:14.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\turka\\source\\repos\\Kurumsal\\Anadolu Sigorta\\Microservice\\Directors\\DockerizationSample\\Services\\Catalog\\ECommerce.Catalog.Domain\\Class1.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\ECommerce.Catalog.Domain\\Class1.cs",
+              "ToolTip": "C:\\Users\\turka\\source\\repos\\Kurumsal\\Anadolu Sigorta\\Microservice\\Directors\\DockerizationSample\\Services\\Catalog\\ECommerce.Catalog.Domain\\Class1.cs",
+              "RelativeToolTip": "Services\\Catalog\\ECommerce.Catalog.Domain\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T07:43:37.088Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

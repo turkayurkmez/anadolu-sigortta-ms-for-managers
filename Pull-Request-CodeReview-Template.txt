@@ -1,0 +1,31 @@
+Pull-Request  Template
+## Değişiklik Açıklaması
+  -[] Feature
+  -[] Bug Fix
+  -[] Refactoring
+
+## Test Senaryoları
+  -[] Unit Tests
+  -[] Integration Tests
+  -[] API Tests
+
+## Code Review Checklist
+  -[] Clean Code Yaklaşımı (Şirketin belirlediği GuideLine dahil)
+  -[] SOLID Prensipleri
+  -[] Güvenlik Protokolleri 
+  -[] Performans optimizasyonları
+  -[] Güncel API dokümantasyonu
+  -[] Monitoring/Logging kontrolü
+
+## Deployment Plan
+  -[] Database migration
+  -[] Configuration Changes
+  -[] Güncel Dependencies (References)
+  -[] Rollback planı
+
+Kim Review Eder?
+   Backend -> backend takım lideri
+   Frontend -> frontend takım lideri
+   Devops -> devops takım lideri (Jenkins, .yaml, .yml, Octopus vs)
+ 
+       

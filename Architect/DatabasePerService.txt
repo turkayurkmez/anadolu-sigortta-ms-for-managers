@@ -1,0 +1,48 @@
+Her servisin kendi db'si olmalı.
+
+    Böyle yaptığınızda yaşadığınız sorunun teşhisi: Distributed Transaction Management!
+
+    CAP Teoremi
+
+    * Consistency (Tutarlılık)
+    * Availability (Uygunluk)
+    * Partition Tolerance (Bölünme Toleransı)
+
+    İki kafeniz var. İkisi de aynı fiyatlara sahip. Fiyat güncelleme davranışı nasıl işleyecek?
+
+1.  CA seçildiyse 
+   * İstanbul'daki fiyatı değiştirdiniz.
+   * Sistem bunu hemen Ankara'ya da yansıtmak istiyor.
+   * Ancak internet bağlantısı yavaş
+   * Ya iki şubedeki fiyat tutarlı olana dek sistemi kilitlersiniz. Ya da uygun durumda yapılması için vazgeçersiniz.
+2. AP seçersek:
+   * İnternet bağlantısı olmasa bile iki şube de çalışmaya devam eder.
+   * Bu durumda iki taraftaki fiyatlar farklı olabilir.
+3. CP seçersek:
+   * İnternet bağlantısı kopukken
+     - Ya iki şubedeki fiyatlar aynı oluncaya dek işlem yapamazsınız.
+     - Ya da sadece bir şubeyi aktif tutup diğerini kapatırsınız. 
+
+En yaygın tercih, AP olur:
+     - Sistem çalışmaya devam eder
+     - Geçici tutarsızlıklar olabilir
+     - Eninde sonunda, tutarlı hale gelecektir!
+
+
+
+Bankacılık sisteminde CP tercih edilir
+     - Para transferinde tutarsızlık kabul edilemez!
+     - Gerekirse tüm sistem eişilemez olur!
+
+TAKİP İÇİN: 
+   1. TraceId
+   2. Error Rate
+   3. Response Time
+   4. Throughput (İşlem Hacmi)?
+
+   Öneri: ElasticSearch'in (Logstash, Kibana) gibi ürünleri tavsiye edilir.
+
+   - Her microservice'in HealthCheck endpoint'i olmalı.
+   - Circuit Breaker deseni gerekli servislerde olmalı.
+   - Bazı API'ler Rate Limiting ile sınırlanmalı. 
+
